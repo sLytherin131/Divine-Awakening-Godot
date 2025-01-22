@@ -1,0 +1,18 @@
+[background arg="res://ImageAssets/background/notifquestwin2.png" fade="0.5"]
+[music path="res://music/Firewood Music Pack/Firewood Music Pack/WAV Files/Full Tracks/1 Call to Adventure TomMusic.wav" fade="0.0" volume="0.0"]
+[i]Quest Selesai[/i]
+[background arg="res://ImageAssets/background/dungeon.jpg" fade="0.5"]
+maincharacter: [lspeed=0.015][i]terengah-engah, melihat monster yang kini tergeletak tak bergerak[/i]\
+Wow... itu benar-benar lebih sulit dari yang kupikirkan. Tapi aku berhasil.\
+[lspeed=0.015][i]mengambil item yang diberikan sistem dan memeriksa tubuh monster[/i]\
+Sepertinya bisa digunakan untuk sesuatu nanti.\
+[lspeed=0.015][i]memasukkan bagian tubuh monster ke dalam inventory[/i]
+[lspeed=0.015][i]Setelah keluar dari dungeon, Edmund kembali ke rumah kepala desa untuk beristirahat.[/i]\
+[pause=0.5][lspeed=0.015][i]Ia disambut dengan hangat oleh Laura dan ayahnya, Rudolf. Saat makan malam, mereka berbincang-bincang, dan Rudolf bertanya tentang petualangan Edmund.[/i]
+[lspeed=0.015][i]Disaat makan malam, Edmund memberitahu apa saja yang ia bunuh saat sebelum bertemu Laura hingga bertemu dengan Laura, serta Edmund juga memberitahu kalau dia mengalahkan monster serigala bernama Canis Orpus.[/i]\
+[pause=0.5][lspeed=0.015][i]Setelah kejadian tersebut, kepala desa memutuskan untuk mengadakan makan malam bersama di rumah mereka, dengan semua penduduk desa yang datang untuk merayakan keberhasilan Edmund.[/i]
+[lspeed=0.015][i]Mereka makan bersama, tertawa, dan berbicara tentang bagaimana Edmund telah mengalahkan serigala raksasa yang mengganggu desa mereka selama bertahun-tahun.[/i]\
+[pause=0.5][lspeed=0.015][i]Setelah kejadian tersebut, kepala desa memutuskan untuk mengadakan makan malam bersama di rumah[/i]
+[background arg="res://ImageAssets/background/white.png" fade="0.5"]
+[lspeed=0.015][i]Bersambung[/i]
+[signal arg="menu"]

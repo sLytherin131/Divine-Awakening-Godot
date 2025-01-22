@@ -1,0 +1,4 @@
+[background arg="res://background/mainmenu.png" fade="0.0"]
+- Start
+	jump timeline1/
+- Exit

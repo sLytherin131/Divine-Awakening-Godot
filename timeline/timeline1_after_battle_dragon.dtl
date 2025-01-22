@@ -1,0 +1,83 @@
+[background arg="res://ImageAssets/background/notifquestwin1.png" fade="0.5"]
+maincharacter: [lspeed=0.015][i]terengah-engah, sambil melihat layar yang muncul di depannya[/i]\
+Aku benar-benar berhasil... dan ini hadiahnya?\
+[i]mengenakan jubah hitam dan mengikatkan dagger di pinggangnya[/i]
+[music path="res://music/Firewood Music Pack/Firewood Music Pack/WAV Files/Full Tracks/1 Call to Adventure TomMusic.wav" fade="0.0" volume="0.0"]
+join maincharacter center
+[background arg="res://ImageAssets/background/forest1.jpg" fade="0.5"]
+[lspeed=0.015][i]Edmund berjalan mendekati gadis yang telah ia selamatkan. Laura terlihat sedikit takut, tapi juga sangat berterima kasih.[/i]
+maincharacter: [lspeed=0.015][i]tersenyum ramah, menyimpan pedangnya ke dalam inventory[/i]\
+Kau baik-baik saja? Jangan khawatir, monster itu sudah tidak akan mengganggumu lagi.
+join laura center [animation="Fade In"]
+laura: [lspeed=0.015][i]mengangguk dengan wajah lega, tetapi tetap gugup[/i]\
+Terima kasih banyak! Aku tidak tahu apa yang akan terjadi jika kau tidak datang. Namaku Laura Walter. Siapa namamu, penyelamatku?
+maincharacter: [lspeed=0.015][i]mengangguk, memperkenalkan diri[/i]\
+Edmund Rodius. Aku hanya seorang pengembara... setidaknya untuk sekarang.
+laura: [lspeed=0.015][i]tersenyum kecil, masih terkejut tetapi merasa nyaman[/i]\
+Terima kasih, Edmund. Kau tidak terlihat seperti berasal dari sekitar sini. Apa kau menuju desa? Kalau iya, kau bisa ikut denganku ke desaku, Ludenwig.
+maincharacter: [lspeed=0.015][i]tersenyum kecil, mengangguk[/i]\
+Ludenwig? Itu terdengar seperti tempat yang baik untuk memulai. Aku akan ikut.
+leave laura [animation="Fade Out"]
+[lspeed=0.015][i]Edmund dan Laura berjalan keluar dari hutan bersama. Setelah beberapa saat, mereka tiba di desa kecil namun ramai bernama Ludenwig.[/i]
+[lspeed=0.015][i]Edmund dan Laura berjalan melalui jalan desa Ludenwig, dengan penduduk desa yang menyapa Laura dan memberikan pandangan penasaran pada Edmund.[/i]
+[lspeed=0.015][i]Laura mengarahkan Edmund ke rumah keluarganya, sebuah rumah besar yang sederhana tetapi terlihat kokoh di dekat pusat desa.[/i]
+[background arg="res://ImageAssets/background/village house.jpeg" fade="0.5"]
+laura: [lspeed=0.015][i]berhenti di depan rumah, menoleh pada Edmund dengan senyum ramah[/i]\
+Inilah rumahku. Kau bisa tinggal di sini sementara waktu. Ayahku pasti ingin bertemu denganmu.
+maincharacter: [lspeed=0.015][i]tersenyum kecil, merasa sedikit canggung[/i]\
+Aku tidak ingin merepotkan keluargamu. Tapi kalau kau yakin, aku akan ikut.
+[background arg="res://ImageAssets/background/Inside village house.jpeg" fade="0.5"]
+Laura membuka pintu, mengajak Edmund masuk ke dalam rumah. Ruangan itu hangat dan nyaman, dengan dekorasi kayu sederhana.
+Di sana, seorang pria paruh baya dengan tubuh tegap dan rambut mulai memutih tengah berdiri dan Ia menatap ke arah Laura dan Edmund saat mereka masuk
+join rudolf left [animation="Fade In"]
+join laura right [animation="Fade In"]
+rudolf: [lspeed=0.015][i]melihat Laura dengan tatapan khawatir[/i]\
+Laura! Kau terlambat pulang. Apa yang terjadi di hutan? Siapa pria ini?
+laura: [lspeed=0.015][i]berlari mendekat, berbicara dengan nada semangat campur lega[/i]\
+[lspeed=0.025]Ayah, aku diserang oleh monster besar di hutan tadi!.
+laura: [pause=0.5][lspeed=0.015]Tapi pria ini, Edmund, menyelamatkanku. Kalau bukan karena dia, aku mungkin....\
+[pause=0.5][lspeed=0.015][i]suara Laura terhenti, menunduk sedikit, menyadari betapa berbahayanya situasi itu tadi[/i]
+rudolf: [lspeed=0.015][i]mengamati Edmund dari ujung kepala hingga kaki[/i]\
+[pause=0.5][lspeed=0.015]Kau mungkin pengembara, tapi kau telah melakukan sesuatu yang luar biasa.
+rudolf: [lspeed=0.015]Nama saya Rudolf Walter, kepala desa Ludenwig, dan juga ayah dari gadis ini.\
+[lspeed=0.015][i]mengulurkan tangan untuk berjabat.[/i]\
+[pause=0.5]Terima kasih telah menyelamatkan Laura.
+maincharacter: [lspeed=0.015][i]menjabat tangan Rudolf[/i]\
+Edmund Rodius. Saya hanya melakukan apa yang harus saya lakukan. Tidak perlu berterima kasih berlebihan.
+rudolf: [lspeed=0.015][i]tertawa kecil[/i]\
+Kau rendah hati, itu bagus. Laura, apakah kau sudah memberitahunya bahwa ia bisa tinggal di sini sementara?
+[lspeed=0.015][i]mengangguk cepat[/i]\
+Sudah, Ayah. Bukankah itu ide yang bagus? Lagipula, Edmund membutuhkan tempat untuk tinggal, setidaknya sampai dia bisa menentukan tujuannya.
+rudolf: [lspeed=0.015][i]mengangguk setuju, lalu menatap Edmund[/i]\
+Kau dipersilakan tinggal di sini, Edmund. Anggap rumah ini sebagai rumahmu sendiri. \
+[pause=0.5]Kau telah menyelamatkan salah satu hal paling berharga dalam hidupku. Jika ada sesuatu yang kau butuhkan, jangan ragu untuk memberitahu.
+maincharacter: [lspeed=0.015][i]tersenyum kecil[/i]\
+erima kasih banyak, Tuan Rudolf. Saya benar-benar menghargai kebaikan Anda dan Laura.
+leave --All-- [animation="Fade Out" wait="true"]
+Setelah bertemu dengan ayahnya, Laura menunjukkan kamar di mana Edmund bisa tinggal. Malam itu, mereka semua duduk di meja makan, berbicara tentang apa yang terjadi di hutan, dan Laura dengan penuh semangat menceritakan bagaimana Edmund mengalahkan Ravagius Org.
+[background arg="res://ImageAssets/background/ruang makan.jpeg" fade="0.5"]
+join laura right [animation="Fade In"]
+join rudolf left [animation="Fade In"]
+laura: [lspeed=0.015][i]dengan semangat[/i]\
+[lspeed=0.015]Edmund, apa kau tahu? Saat kau melawan Ravagius Org, kau terlihat seperti seorang pahlawan dari cerita rakyat! Pedang pendekmu, gerakanmu... itu luar biasa!
+maincharacter: [lspeed=0.015][i]tersipu, mencoba merendahkan diri[/i]\
+Ah, itu tidak sehebat yang kau pikirkan. Aku hanya beruntung, Kalau monster itu menyerang lebih cepat, aku mungkin sudah kalah.
+rudolf: [lspeed=0.015][i]tertawa[/i]\
+[lspeed=0.015]Rendah hati dan tangguh. Kau punya sifat yang baik untuk seorang petualang, Edmund. Mungkin dunia ini mengirim kamu kesini untuk alasan tertentu.
+maincharacter: [lspeed=0.015][i]Terdiam sejenak[/i]\
+[lspeed=0.015]Mungkin... aku juga sedang mencoba mencari tahu alasanku berada di sini.
+leave --All-- [animation="Fade Out" wait="true"]
+Malam pun berlalu dengan obrolan santai. Edmund merasa lebih diterima dan mulai menyadari bahwa desa Ludenwig mungkin tempat yang baik untuk memulai petualangannya di dunia baru ini.
+[background arg="res://ImageAssets/background/village.png" fade="0.5"]
+[lspeed=0.015]Keesokan harinya, Edmund mulai menjelajahi desa Ludenwig. Desa itu terlihat hidup dengan aktivitas penduduk yang sibuk. Edmund berkenalan dengan beberapa warga, membantu mereka dengan pekerjaan sehari-hari seperti mengumpulkan bahan makanan dan memperbaiki rumah-rumah yang rusak.
+[lspeed=0.015]Setelah selesai membantu warga, Edmund memutuskan untuk pergi ke dungeon yang berada di dekat desa. Dungeon tersebut terkenal karena banyaknya monster yang sering keluar dan mengganggu desa. Edmund memasuki dungeon dengan hati-hati, waspada terhadap ancaman yang ada di dalam.
+[background arg="res://ImageAssets/background/dungeon.jpg" fade="0.5"]
+[lspeed=0.015][i]memasuki dungeon yang gelap dan lembab, mempersiapkan pedangnya[/i]\
+"Ini sepertinya tempat yang berbahaya. Aku harus tetap fokus.
+Edmund berjalan lebih dalam, dan tidak lama kemudian ia bertemu dengan monster besar, dan sebuah notifikasi sistem muncul.
+maincharacter: [lspeed=0.015][i]terkejut melihat monster itu[/i]\
+Serigala raksasa, huh? Aku harus hati-hati, sepertinya ini lebih kuat dari yang sebelumnya.
+[sound path="res://music/bgm/change_scene_sfx.wav" volume="0.0"]
+[background arg="res://ImageAssets/background/notifquest2.png" fade="0.5"]
+[sound path="res://music/bgm/change_scene_sfx.wav" volume="0.0"]
+[signal arg="battle2"]

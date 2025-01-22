@@ -1,0 +1,132 @@
+[gd_scene load_steps=6 format=3 uid="uid://ckjro3ki26h6w"]
+
+[ext_resource type="Script" path="res://scene/menu.gd" id="1_eri13"]
+[ext_resource type="Texture2D" uid="uid://c4qdin1ts2x7n" path="res://ImageAssets/background/mainmenu.png" id="2_dnhpu"]
+[ext_resource type="FontFile" uid="uid://btct8ear61d2l" path="res://font/Roboto-VariableFont_wdth,wght.ttf" id="3_x2u8b"]
+[ext_resource type="StyleBox" uid="uid://cydic07iypihn" path="res://style/buttonstylenormal.tres" id="4_a7cut"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_canek"]
+bg_color = Color(0, 0, 0, 0)
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -1.0
+offset_right = 2993.0
+offset_bottom = 1159.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.277581, 0.36)
+script = ExtResource("1_eri13")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.032
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -7.0
+offset_top = 57.856
+offset_right = -2870.0
+offset_bottom = -1088.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(3.25147, 2.50874)
+texture = ExtResource("2_dnhpu")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 4146.0
+offset_bottom = 1356.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 50
+theme_override_fonts/font = ExtResource("3_x2u8b")
+theme_override_font_sizes/font_size = 350
+text = "DIVINE AWAKENING"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 200
+alignment = 1
+
+[node name="StartButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(350, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 1, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_x2u8b")
+theme_override_font_sizes/font_size = 200
+theme_override_styles/hover = SubResource("StyleBoxFlat_canek")
+theme_override_styles/normal = ExtResource("4_a7cut")
+text = "START"
+
+[node name="CreditsButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(350, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 1, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_x2u8b")
+theme_override_font_sizes/font_size = 200
+theme_override_styles/hover = SubResource("StyleBoxFlat_canek")
+theme_override_styles/normal = ExtResource("4_a7cut")
+text = "CREDITS"
+
+[node name="SettingsButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(350, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 1, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_x2u8b")
+theme_override_font_sizes/font_size = 200
+theme_override_styles/hover = SubResource("StyleBoxFlat_canek")
+theme_override_styles/normal = ExtResource("4_a7cut")
+text = "SETTINGS"
+
+[node name="ExitButton" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(350, 200)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 1, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_x2u8b")
+theme_override_font_sizes/font_size = 200
+theme_override_styles/hover = SubResource("StyleBoxFlat_canek")
+theme_override_styles/normal = ExtResource("4_a7cut")
+text = "EXIT"
+
+[connection signal="pressed" from="HBoxContainer/StartButton" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="HBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="HBoxContainer/ExitButton" to="." method="_on_exit_pressed"]

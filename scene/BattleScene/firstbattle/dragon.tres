@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://deq6pl1hkp8r5"]
+
+[ext_resource type="Script" path="res://scene/BattleScene/firstbattle/Base_Dragon.gd" id="1_bbrdq"]
+[ext_resource type="Texture2D" uid="uid://na4al8u45xkj" path="res://ImageAssets/enemyimageasset/monsterorc1.png" id="2_f8edt"]
+
+[resource]
+script = ExtResource("1_bbrdq")
+name = "Orc"
+texture = ExtResource("2_f8edt")
+health = 300
+damage = 25

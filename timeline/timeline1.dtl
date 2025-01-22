@@ -1,0 +1,116 @@
+[background arg="res://ImageAssets/background/Kastil.jpeg" fade="1.2" transition="Simple Fade"]
+[music path="res://music/Helios OST/Helios OST/01 Featherweight.mp3" fade="0.0" volume="1.2"]
+maincharacter: [lspeed=0.015][i]mengangkat tubuhnya perlahan, memegang kepala sambil mengerutkan kening [/i]\
+Ugh... di mana aku? Tempat ini... apa ini istana? Apa aku bermimpi?
+unknown: [lspeed=0.015]Edmund Rodius...\
+[i]Suara bergema di seluruh ruangan, lembut namun penuh wibawa[/i]
+maincharacter: [lspeed=0.015][i]melihat sekeliling dengan bingung, suaranya penuh kewaspadaan[/i]\
+Siapa itu? Siapa yang memanggilku? Tunjukkan dirimu!
+join Selene center [animation="Fade In" length="0.7" wait="true"]
+Selene: [lspeed=0.015][i]muncul dari balik pilar besar, berjalan anggun dengan cahaya keemasan yang mengelilinginya[/i]\
+Tenanglah, Edmund. Aku di sini untuk membantumu memahami apa yang telah terjadi.
+maincharacter: [lspeed=0.015][i]tercengang, menatap Selena yang mendekat, terlihat seperti sosok sempurna dari sebuah legenda[/i]\
+Kau... siapa? Dan kenapa kau tahu namaku?
+Selene: [lspeed=0.015][i]tersenyum hangat, membungkukkan kepala sedikit sebagai tanda penghormatan[/i]\
+Namaku Selena. Aku adalah seorang dewi utusan, dikirim untuk menyampaikan kabar penting padamu.
+maincharacter: [lspeed=0.015][i]mengernyitkan dahi, bingung tetapi tetap mendengarkan[/i]\
+[lspeed=0.025]Dewi utusan? Tunggu...[pause=0.5]aku ingat ada mobil yang mendekat... dan kemudian...
+maincharacter: [lspeed=0.015][i]berhenti sejenak, wajahnya berubah pucat[/i]\
+[lspeed=0.025]Apa aku...[pause=0.5][lspeed=0.015]apa aku sudah mati?
+Selene: [lspeed=0.015][i]berdiri tegak, berbicara dengan nada lembut namun penuh keyakinan[/i]\
+[lspeed=0.025]Tidak sepenuhnya, Edmund. [pause=0.5 [lspeed=0.015]Tubuhmu di dunia lamamu memang tidak bisa lagi melanjutkan. [pause=0.5][lspeed=0.025]Namun, jiwa dan semangatmu telah dipilih untuk kehidupan baru di dunia ini.
+maincharacter: [lspeed=0.015][i]menggelengkan kepala, mencoba memproses informasi[/i]\
+[lspeed=0.015]Dunia ini? Jadi aku tidak di Bumi lagi? Di mana aku sebenarnya?
+leave Selene [animation="Fade Out" length="0.7" wait="true"]
+[background arg="res://ImageAssets/background/view.jpg" fade="1.0" transition="Simple Fade"]
+Selena mengajak Edmund Rodius untuk melihat dunia luar sambil melanjutkan percakapannya.
+maincharacter: [lspeed=0.015][i]menatap keluar jendela dengan takjub, kemudian kembali melihat Selena[/i]\
+[lspeed=0.025]Seseorang sepertiku? Maksudmu apa? Aku hanya orang biasa, bukan seorang pahlawan atau penyelamat.
+join Selene center [animation="Fade In" length="0.7" wait="true"]
+Selene: [lspeed=0.015][i]tersenyum dengan lembut, aura kepercayaan terpancar dari dirinya[/i]\
+[lspeed=0.025]Kau lebih dari yang kau pikirkan, Edmund. [pause=0.5 [lspeed=0.015]Ada kekuatan dalam dirimu yang bahkan kau sendiri belum menyadarinya. [pause=0.5 [lspeed=0.015]Dan dunia ini membutuhkan kekuatan itu.
+maincharacter: [lspeed=0.015][i]menghela napas panjang, masih bingung tetapi mulai menerima kenyataan[/i]\
+[lspeed=0.025]Baiklah... jika ini benar, apa yang harus aku lakukan sekarang? Apa tujuan semua ini?
+Selene: [lspeed=0.015][i]mengulurkan tangannya, mengisyaratkan bahwa dia akan memimpin Edmund[/i]\
+[lspeed=0.025]Semua akan dijelaskan seiring waktu. [pause=0.5 [lspeed=0.015]Pertama, aku akan membawamu ke tempat di mana kau bisa memahami dunia ini dengan lebih baik.
+maincharacter: [lspeed=0.015][i]meraih tangan Selena, meski masih ragu, tetapi mulai merasa yakin untuk melangkah maju[/i]\
+[lspeed=0.025]Baiklah, Selena. Aku akan ikut denganmu. Tapi aku butuh jawaban.
+Selene: [lspeed=0.015][i]mengulurkan tangannya, mengisyaratkan bahwa dia akan memimpin Edmund[/i]\
+[lspeed=0.025]Semua akan dijelaskan seiring waktu. [pause=0.5] [lspeed=0.015]Pertama, aku akan membawamu ke tempat di mana kau bisa memahami dunia ini dengan lebih baik.
+leave Selene [animation="Fade Out" length="0.7" wait="true"]
+Percakapan masih terus berlanjut dan kembali lagi menuju kedalam kastil
+[background arg="res://ImageAssets/background/Kastil.jpeg" fade="0.3"]
+join Selene center [animation="Fade In" length="0.7" wait="true"]
+maincharacter: [lspeed=0.015][i]menatap Selena dengan serius, ekspresi penuh rasa ingin tahu[/i]\
+[lspeed=0.015]Selena, kau bilang aku dipilih...[pause=0.5] [lspeed=0.015]Tapi kenapa? Kenapa aku? Apa alasanku berada di sini? Aku tidak pernah meminta hal ini.
+Selene: [lspeed=0.015][i]berhenti sejenak, menatap Edmund dengan lembut namun penuh wibawa[/i]\
+[lspeed=0.015]Kau berada di sini karena pilihan yang dibuat oleh Evidius, Dewa Utama dunia ini. [pause=0.5] [lspeed=0.015]Dia telah mengamati banyak jiwa dari berbagai dunia, dan kau, Edmund Rodius, adalah yang terpilih untuk menjalankan tugas besar.
+maincharacter: [lspeed=0.015][i]mengernyit, bingung tetapi mulai penasaran[/i]\
+[lspeed=0.015]Dewa utama? Dan tugas besar apa yang kau bicarakan?
+Selene: [lspeed=0.015][i]melangkah mendekat, tatapannya menjadi serius[/i]\
+[lspeed=0.015]Dunia ini sedang berada di ambang kehancuran. Lima makhluk yang dulunya pelindung dunia ini, yang diberkati oleh Evidius, telah berkhianat.[pause=0.5] [lspeed=0.015]Mereka sekarang dikenal sebagai Lima Pengkhianat Gelap. [pause=0.5] [lspeed=0.015]Mereka memutuskan untuk menggunakan kekuatan mereka untuk menghancurkan dan menguasai, bukannya melindungi.
+maincharacter: [lspeed=0.015][i]terperanjat, mencoba memproses informasi[/i]\
+[lspeed=0.015]Dan kau ingin aku... [pause=0.5] [lspeed=0.015] melawan mereka? Menyelamatkan negara ini? Kau sadar, aku hanya orang biasa, kan? Aku bahkan tidak tahu bagaimana caranya bertarung!
+Selene: [lspeed=0.015][i]tersenyum tipis, mengulurkan tangannya, cahaya mulai mengelilingi Edmund[/i]\
+[lspeed=0.015]Itulah sebabnya aku di sini, Edmund.[pause=0.5] [lspeed=0.015]Untuk memberikanmu kekuatan. [pause=0.5] [lspeed=0.015]Kau tidak akan memulai perjalanan ini dengan tangan kosong.
+maincharacter: [lspeed=0.015][i]memperhatikan cahaya yang menyelimutinya, bertanya dengan waspadai[/i]\
+[lspeed=0.015]Kekuatan? Seperti apa kekuatan ini?"
+Selene: [lspeed=0.015][i]melanjutkan dengan suara yang lebih tenang[/i]\
+[pause=0.5] [lspeed=0.015]Kau akan diberkati dengan Kekuatan Bayangan, kekuatan yang memungkinkanmu mengendalikan kegelapan dan menggunakan bayangan sebagai senjata dan pelindung. [pause=0.5] [lspeed=0.015]Namun...
+Selene: [lspeed=0.015][i]berhenti sejenak, menatap Edmund dengan serius[/i]\
+[pause=0.5] [lspeed=0.015]Kekuatan ini belum mencapai bentuk sejatinya. Saat kau diturunkan ke dunia, kekuatan ini hanya akan menjadi dasar. [pause=0.5] [lspeed=0.015]Kau harus mengembangkan dan menyempurnakannya melalui petualanganmu. Melawan monster, menaklukkan rintangan, dan menemukan esensi sejati dari dirimu sendiri.
+maincharacter: [lspeed=0.015][i]terdiam sejenak, menatap tangannya yang mulai bercahaya gelap, lalu menatap Selena lagi[/i]\
+[lspeed=0.015]Jadi aku tidak hanya mendapatkan kekuatan ini begitu saja? Aku harus layak untuk menggunakannya?
+Selene: [lspeed=0.015][i]mengangguk perlahan, senyumnya kembali lembut[/i]\
+[pause=0.5] [lspeed=0.015]Benar. Petualanganmu akan membentuk kekuatan itu, Edmund. [pause=0.5] [lspeed=0.015]Namun, perjalananmu tidak akan mudah. Kau akan menghadapi makhluk-makhluk yang bahkan mimpi buruk pun tak mampu melukiskannya.
+maincharacter: [lspeed=0.015][i]menghela napas, mencoba mempersiapkan dirinya[/i]\
+[lspeed=0.015]Aku tidak yakin aku siap untuk ini... Tapi aku rasa aku tidak punya pilihan, kan?
+Selene: [lspeed=0.015][i]tersenyum penuh arti, melangkah mundur sedikit[/i]\
+[pause=0.5] [lspeed=0.015]Pilihan telah dibuat, Edmund. Sekarang, perjalananmu akan dimulai.
+Selene: [lspeed=0.015][i]tersenyum penuh arti, melangkah mundur sedikit[/i] \
+[pause=0.5] [lspeed=0.015]Di bawah langit Nireas, di sebuah padang rumput, perjalanan pertamamu akan dimulai. [lspeed=0.015]Aku hanya bisa menuntunmu sejauh ini. Sisanya adalah perjuanganmu sendiri.
+maincharacter: [lspeed=0.015][i]mencoba tetap tenang meski jantungnya berdebar cepat[/i]\
+[lspeed=0.015]Baiklah. Jika ini yang harus kulakukan, aku akan melakukannya. Untuk dunia ini... dan untuk diriku sendiri.
+leave Selene [animation="Fade Out" length="0.7" wait="true"]
+[background arg="res://ImageAssets/background/white.png" fade="0.5"]
+[music fade="0.0" volume="0.0"]
+Selene: [lspeed=0.015][i]tersenyum bangga, sebelum cahaya menyilaukan memenuhi ruangan[/i] \
+[pause=0.5] [lspeed=0.015]Semoga kekuatan Evidius menyertaimu. Selamat datang di Nireas, Edmund Rodius.
+[background arg="res://ImageAssets/background/padang_rumput.jpeg" fade="0.5"]
+[music path="res://music/Firewood Music Pack/Firewood Music Pack/WAV Files/Full Tracks/2 The Wilderness TomMusic.wav" fade="0.5" volume="0.0"]
+maincharacter: [lspeed=0.015][i]mencoba tetap tenang meski jantungnya berdebar cepat[/i]\
+[lspeed=0.015]Baiklah. Jika ini yang harus kulakukan, aku akan melakukannya. Untuk dunia ini... dan untuk diriku sendiri.
+Cahaya terang menghilang, dan Edmund terbangun kembali di sebuah padang rumput luas dengan langit biru yang bersih. Di kejauhan, ia melihat gunung menjulang dan hutan gelap, tanda awal dari petualangannya yang penuh bahaya.
+maincharacter: [lspeed=0.015][i]mencoba tetap tenang meski jantungnya berdebar cepat[/i]\
+[lspeed=0.015]Baiklah. Jika ini yang harus kulakukan, aku akan melakukannya. Untuk dunia ini... dan untuk diriku sendiri.
+maincharacter: [lspeed=0.015][i]melihat sekeliling, mencoba berpikir[/i]\
+[lspeed=0.015]Pertama-tama... aku butuh tempat untuk memulai. Mungkin desa terdekat bisa membantuku.
+[lspeed=0.015][i]Edmund membuka status window yang muncul seperti hologram. Ia menatap layar biru yang menampilkan nama, level, dan atributnya. Semua masih di level dasar.[/i]
+[sound path="res://music/bgm/change_scene_sfx.wav" volume="1.0" bus="Master"]
+[background arg="res://ImageAssets/background/status.png" fade="0.5"]
+maincharacter: [lspeed=0.015][i]mengangkat tubuhnya perlahan, memegang kepala sambil mengerutkan kening [/i]\
+[lspeed=0.015]Level 1, huh? Tidak terlalu mengesankan, tapi setidaknya aku punya sistem ini untuk membantuku.
+[background arg="res://ImageAssets/background/padang_rumput.jpeg" fade="0.5"]
+maincharacter: [lspeed=0.015][i]tersenyum kecil[/i]\
+[lspeed=0.015]Baiklah, mari cari desa.
+[i]Edmund memulai perjalanannya menuju arah yang terlihat seperti jalur menuju pemukiman.[/i]
+[background arg="res://ImageAssets/background/dark_road1.jpeg" fade="1.0"]
+[i]Saat melewati hutan, suasana berubah menjadi gelap dan angker. Tiba-tiba, seekor monster menyerang.[/i]
+[sound path="res://music/bgm/Bunny_Growl.wav" volume="1.0"]
+join monsterbunny center [animation="Fade In" wait="true"]
+monsterbunny: *muncul dari pohon dengan ekspressi marah*
+maincharacter: [i]terkejut tapi tetap tenang.[/i]\\
+Monster? Baiklah, ini saatnya untuk mencoba apa yang kubisa!
+leave monsterbunny [animation="Fade Out" length="0.4"]
+[background arg="res://ImageAssets/background/dark_road1.jpeg" fade="1.0"]
+maincharacter: Wow... itu tidak terlalu buruk. Tapi aku yakin ini belum apa-apa.
+[i]Setelah melewati hal tersebut, Edmund mendengar teriakan dari arah hutan yang lebih dalam.[/i]
+maincharacter: [i]berhenti sejenak, mendengar dengan cermat.[/i]\\
+Ada seseorang di sana... sepertinya dalam bahaya!\
+[i]bergegas menuju suara itu[/i]
+[sound path="res://music/bgm/change_scene_sfx.wav" volume="1.0" bus="Master"]
+[background arg="res://ImageAssets/background/notifquest1.png" fade="0.5" transition="Simple Fade"]
+maincharacter: [lspeed=0.015][i]terkejut melihat sebuah layar biru muncul tiba-tiba.[/i]\
+Quest? Jadi ini benar-benar seperti game!, Baiklah, aku tidak bisa melarikan diri. Jika ini bagian dari takdirku, aku akan melakukannya.\
+[i]mengambil pedang pendek dari inventory[/i]
+[signal arg="battle1"]
